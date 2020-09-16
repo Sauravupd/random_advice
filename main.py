@@ -14,7 +14,7 @@ background_image=tk.PhotoImage(file='./Image/07.PNG')
 background_label=tk.Label(root,image=background_image)
 background_label.place(relwidth=1,relheight=1)
 
-frame1=tk.Frame(root,bg='#668bcc',bd=2)
+frame1=tk.Frame(root,bg='5d54a4',bd=2)
 frame1.place(relx=0.15,rely=0.1,relwidth=0.7,relheight=0.05)
 button=tk.Button(frame1,text="Generate Advice",bg="white",fg="black",font=10,bd=2,command=lambda:get_advice())
 button.place(relx=0.1,rely=0.22,relwidth=0.8,relheight=0.6)
